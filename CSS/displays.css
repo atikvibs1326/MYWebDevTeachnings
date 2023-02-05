@@ -1,0 +1,18 @@
+body {
+   
+    background-color: beige;
+    margin: 0;
+}
+h1 {
+    background-color: #8a2be2;
+    margin:0;
+    padding:10px;
+    border-bottom: 2px solid black;
+}
+p{
+    background-color: bisque;
+    padding: 10px;
+    margin: 10;
+    border-bottom: 2px solid black;
+
+}

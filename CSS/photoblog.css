@@ -1,0 +1,25 @@
+body{
+    background-color: #151b15;
+}
+img{
+   width: 30%;
+   margin: calc(10% /6);
+  
+}
+img:hover{
+    border-color: #f1f15c;
+    color: whitesmoke;
+    /* box shadow offsetX |offestY |blur-radius |spread-radius|color */
+    box-shadow: 0 0.5em  2em -0.5em #3f37c9;
+    transform: translateY(-0.5em);
+    cursor: pointer; 
+}
+nav{
+    font-size: 1.3em;
+    margin-left: calc(10%/6);
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    padding: 0.25em 0;
+    color: whitesmoke;
+
+}

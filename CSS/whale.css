@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-weight: normal;
+    text-decoration: line-through  blue;
+    line-height: 0.5;
+    letter-spacing: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+p{
+    text-align: left;
+    font-weight: lighter;
+    text-decoration: underline lightblue;
+
+}
+h2{
+    text-align: left;
+    font-weight: 700;
+    text-decoration: underline dotted red;
+    line-height: 1.5;
+    letter-spacing: 30px;
+    
+}
