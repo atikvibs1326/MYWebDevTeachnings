@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/data">
+        <label for="Name">Username:</label>
+        <input type="text" placeholder="Enter name" id="Name" name="username">
+        <br>
+        <br>
+        <label for="club">Club:</label>
+        <input type="text" id="club" placeholder="enter club name" name="club">
+        <br><br>
+        <label for="trophy">Trophies:</label>
+        <input type="number" id="trophy" placeholder="enter no of trophies" name="cup">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" name="password">
+        <br><br>
+        <button>Submit Me</button>
+    </form>
+    <br>
+    <!-- the name attribute in the input tag is used to sendthe data to appropriate from the label to the database -->
+    <form action="https://www.google.com/search">
+        <input type="text" name="query">
+        <button>Search Google</button>
+    </form>
+    <br>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="q" >
+        <button>Search Youtube</button>
+    </form>
+<form action="/check">
+    <h2>More Inputs</h2>
+    <input type="checkbox" name="Agree tos" id="agree">
+    <label for="agree">I agree to Everything</label>
+
+    <button>Submit</button>
+</form>
+    <form action="/options">
+        <h2>Select one</h2>
+        <label for="moped">Moped:</label>
+        <input type="radio" name="car" id="moped" value="Moped">
+        <label for="bike">Bike:</label>
+        <input type="radio" name="car" id="bike" value="Bike">
+        <label for="car">Car:</label>
+        <input type="radio" name="car" id="car" value="Car">
+        <br><br>
+        <p>
+            <label for="meal">Select the cusine</label>
+            <select name="meal" id="meal">
+                <option value="paneer">Butter-Panner</option>
+                <option value="chicken">Fry-chicken</option>
+                <option value="biryani">Mutton biryani</option>
+                <option value="dal">Dal Tadka</option>
+                <option value="fish">Fish</option>
+            </select>
+        </p>
+        <p>
+            <label for="cost">Amount</label>
+            <input type="range" name="cost" id="cost" min="0" max="100" step="5">
+        </p>
+        <button>Submit</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

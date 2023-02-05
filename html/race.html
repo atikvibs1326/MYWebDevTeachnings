@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration form</title>
+</head>
+
+<body>
+    <h1>Race Registration</h1>
+    <form action="/torun">
+        <div class="Name">
+            <label for="first">First Name:</label> <br>
+            <input type="text" name="first" id="first" required><br> <br>
+            <label for="last">Last Name:</label><br>
+            <input type="text" name="last" id="last" required>
+        </div>
+        <div class="Marathon">
+            <h2>Select a Race</h2>
+            <input type="radio" name="race" id="5k" value="5k">
+            <label for="5k">Fun run 5k</label>
+            <br>
+            <input type="radio" name="race" id="half" value="half">
+            <label for="half">Half marathon</label>
+            <br>
+            <input type="radio" name="race" id="full" value="full">
+            <label for="full">Full marathon</label>
+        </div> <br>
+        <div class="logins">
+            <label for="mail">Email</label><br>
+            <input type="email" name="mail" id="mail" required><br><br>
+            <label for="pass">Password</label><br>
+            <input type="password" name="pass" id="pass" minlength="5" maxlength="8" required>
+        </div><br>
+        <div class="select">
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age" required>
+                <option value="" >--Select Age--</option>
+                <option value="18-30">18-30</option>
+                <option value="35-50">35-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </div><br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
