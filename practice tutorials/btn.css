@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151b15;
+}
+button{
+    background:  none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.2s;
+}
+button:hover{
+    border-color: #f1f15c;
+    color: whitesmoke;
+    /* box shadow offsetX |offestY |blur-radius |spread-radius|color */
+    box-shadow:0 0.5em  0.5em -0.4em #f1f15c;
+    transform: translateY(-0.25em);
+    cursor: pointer; 
+}

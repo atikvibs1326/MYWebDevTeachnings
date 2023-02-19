@@ -1,0 +1,76 @@
+body{
+    background-color: #e0e1dd;
+}
+ 
+h1,h2{
+    color: #1d3557;
+    font-weight: 800;
+}
+button{
+    font-size: 25px;
+    background-color: #fcf6bd;
+    color: #00afb9;
+}
+
+#register{
+    background-color: #00afb9;
+    color: #fcf6bd;
+}
+
+.tag{
+    background-color: yellowgreen;
+    color: aliceblue;
+}
+.orange{
+    /* background-color: blueviolet;
+    color: black; */
+} 
+.post a{
+    background-color: #ffbd00;
+    text-decoration: none;
+}
+
+footer a{
+    background-color: #2ec4b6;
+}
+/* adjacent Selector */
+h2+button{
+    font-size: 35px;
+}
+
+/* direct-decendants selector */
+footer > a{
+    background-color: cyan;
+    color: darkgreen;
+}
+input[type="text"] {
+ color: greenyellow;
+ border-radius: 20px;
+ height: 25px;
+}
+
+input[type="password"]{
+    /* background-color: #ffbd00; */
+    color: #ffbd00;
+    border-radius: 20px;
+    height: 25px;
+}
+
+button:hover{
+    background-color: #e4c1f9;
+}
+.post a:hover{
+    text-decoration: underline;
+}
+p{
+    width: 800px;
+    height: 100px;    
+}
+
+
+
+
+
+
+
+
