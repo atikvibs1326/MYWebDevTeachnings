@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="grid.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Grids only work under the container they are responsive 
+    intially each of the grid contains 12 units -->
+    <div class="container">
+        <h1 class="text-primary display-1 text-center">The Bootstrap Grids</h1>
+        <div class="row">
+            <div class="col-2 bg-success">1 of 12</div>
+            <div class="col-8 bg-danger">2 of 12</div>
+            <div class="col-2 bg-success">3 of 12</div>
+        </div>
+        <div class="row">
+            <div class="col-3 bg-danger">i am 3</div>
+            <div class="col-6 bg-success">i am 6</div>
+            <div class="col-3 bg-danger">i am 3</div>
+        </div>
+        <!-- Auto sized grid -->
+        <div class="row">
+            <div class="col bg-success">i am auto</div>
+            <div class="col bg-primary">i am auto</div>
+            <div class="col bg-success">i am auto</div>
+            <div class="col bg-info">i am auto too</div>
+        </div>
+        <h2 class="display-4">Responsive Grids</h2>
+        <div class="row">
+            <div class="col-md-6 col-xl-3 bg-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur provident velit voluptatum ex, a
+                neque molestias inventore dolor culpa assumenda veritatis non quo, ducimus eligendi, repellat esse
+                expedita obcaecati voluptate.
+            </div>
+
+            <div class="col-md-6 col-xl-3 bg-success">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam vel reiciendis nulla fuga. Esse
+                quisquam voluptatibus, exercitationem dolores numquam perspiciatis fuga sit reprehenderit doloremque
+                sapiente dignissimos corporis consequatur modi!
+            </div>
+            <div class="col-md-6 col-xl-3 bg-warning">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur provident velit voluptatum ex, a
+                neque molestias inventore dolor culpa assumenda veritatis non quo, ducimus eligendi, repellat esse
+                expedita obcaecati voluptate.
+            </div>
+
+            <div class="col-md-6 col-xl-3 bg-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam vel reiciendis nulla fuga. Esse
+                quisquam voluptatibus, exercitationem dolores numquam perspiciatis fuga sit reprehenderit doloremque
+                sapiente dignissimos corporis consequatur modi!
+            </div>
+        </div>
+
+        <h2 class="display-4">Image FLuid</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-6">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1666491203021-75d51c18f76b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fDgwMCUyMCo2MCUyMGltYWdlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                        alt="">
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <img class="img-fluid"
+                        src="https://images.unsplash.com/photo-1444738720667-27446e3f293d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fDgwMCUyMCo2MCUyMGltYWdlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                        alt="cat">
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <img class="img-fluid "
+                        src="https://images.unsplash.com/photo-1540382421014-165113f30ab5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fDgwMCUyMCo2MCUyMGltYWdlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                        alt="cat">
+                </div>
+            </div>
+        </div>
+
+        <h2 class="display-4">Grid Alignment</h2>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-3 bg-primary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus animi, eum voluptatum
+                    est expedita consequatur minus officiis velit maxime nobis, veniam autem, nulla sint laudantium
+                    consectetur delectus quasi maiores!
+                </div>
+                <div class="col-3 bg-success ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus animi, eum voluptatum
+                    est expedita consequatur minus officiis velit maxime nobis, veniam autem, nulla sint laudantium
+                    consectetur delectus quasi maiores!
+                </div>
+                <div class="col-3 bg-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus animi, eum voluptatum
+                    est expedita consequatur minus officiis velit maxime nobis, veniam autem, nulla sint laudantium
+                    consectetur delectus quasi maiores! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel,
+                    esse perspiciatis. Ratione maxime et fuga rem consectetur ipsa architecto doloribus officia minus,
+                    minima nam quam quas, non, accusamus quo similique.
+                    <!-- after putting extra lines in bg-info box all other boxes also changed its height -->
+                </div>
+                <div class="col-3 bg-danger align-self-end">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus animi, eum voluptatum
+                    est expedita consequatur minus officiis velit maxime nobis, veniam autem, nulla sint laudantium
+                    consectetur delectus quasi maiores!
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <h3 class="display-5">Justify Content</h3>
+        <div class="row border justify-content-between">
+            <div class="col-4 bg-primary">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sapiente inventore odit placeat eaque
+                ab assumenda cupiditate consequuntur eveniet. Necessitatibus ipsum maxime repudiandae velit eligendi
+                architecto ipsam hic nisi cupiditate!
+            </div>
+            <div class="col-4 bg-info ">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sapiente inventore odit placeat eaque
+                ab assumenda cupiditate consequuntur eveniet. Necessitatibus ipsum maxime repudiandae velit eligendi
+                architecto ipsam hic nisi cupiditate!
+            </div>
+        </div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, omnis. Iusto ab debitis ut molestias obcaecati
+        aliquid quidem eum. Asperiores tenetur dicta architecto delectus optio facere accusantium dignissimos saepe
+        cumque.
+        Necessitatibus ut maiores est, ipsum totam ad molestiae ipsa nam labore eius consectetur dolores eveniet
+        mollitia magnam laborum sit dolor provident explicabo praesentium! Molestiae cumque at natus nulla ea
+        reprehenderit?
+        Quas dolore inventore laboriosam aperiam ex saepe, commodi ducimus cumque velit sapiente? Corporis autem
+        deleniti ab obcaecati quam dignissimos aut magnam eum ex quibusdam, officia voluptatibus, repellat, consequuntur
+        aspernatur labore.
+        Magnam, maxime! Natus quo porro architecto at, distinctio nulla. Iste ea unde doloremque soluta impedit
+        obcaecati illo nisi delectus, commodi aliquid quod fugit perferendis non praesentium quisquam quam laborum
+        voluptatibus.
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
