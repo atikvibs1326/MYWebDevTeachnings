@@ -1,0 +1,75 @@
+Js Object Literals
+
+js object literal is a DataStructure that is used to Store 
+Multiple type of data that data is of any type it can be integer,
+string,Character,Boolean,Array etc etc
+
+this object literal are unstructured and they do not have any 
+order and they can be accessed by the object name
+Object Literals are Stored in Key value pair
+
+
+Syntax
+
+const/let objectname= {variable_name:'Value'}; 
+                       ------------  _______
+				Key		  Value
+
+Example
+const product={name:'Gummy Bears',
+               inStock:true,
+               price:1.99,
+               flavors:['Grape','apple','cherry']
+};
+
+
+Creating the object literals we use the {} brakcets 
+const KithenSink={favnum:123,
+			isfun:true,
+			colors:['red','orange'],
+			firstname:'Atik'
+}
+
+Accessing the Object literals
+
+to access the Object Literals what we need to do 
+is that we access it just like we accesss our array like arr[0]=where arr is the name of the refernce variable and the 0 is the index number
+In object literals we do similar things but in the we use thee refernce variable and whatever we want to access we use the "" in that 
+
+like if i want to acces the colors from the Kithensink
+
+Donts:	KithenSink{2}   OR   KithenSink{colors}
+O/P		undefined		   undefined
+whereas we 
+
+Do's:  KithenSink{"colors "} this will output us like 
+O/P	colors['red','orange']
+
+Everything in the object literals 
+all keys are converted into the Strings
+Except for Symbols
+
+
+We can also access the data by using the (.) operator 
+Like 
+	KithenSink.colors
+O/P	colors['red','orange']
+
+we can Also modify the values in the Object literals
+by intializing it also can add new data and delte as well
+
+Like if i want to add black color into my color Array in the KithenSink Object 
+here is howyoudo
+Adding new element
+	KithenSink.color='black'
+O/P 	colors['red','orange','black']
+Modifying existing element
+	KithenSink.firstname='bravo'
+O/P	firstname='bravo'  it will change the value from atik to bravo
+
+delteing the element
+	delete kithenSink.firstname
+O/P this will delte the firstname from the object KithenSink
+
+
+

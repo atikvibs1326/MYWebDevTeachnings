@@ -1,0 +1,45 @@
+js arrays
+
+
+Arrays are indexed
+Each element has a corresspoinding index (counting starts from 0)
+
+Modifying arrays
+we can modify the array element even if it is a string we can modify it
+
+Note: but we cant modify the strings directly we can change it from the array
+
+
+Array Methods
+
+	-Push-add to end
+
+	-Pop-remove from end
+
+	-Shift-remove from start
+
+	-unshift-add to start
+
+-array.concat()
+	this method takes two array and combine them together and results a new array
+
+-array.include()
+	this methods return true or false if the value contains in the array
+
+-array.indexOf()
+	this method return the index of the element that is presented in the array it might be the single element or string,or integer 
+	it tells the first occurence of the element that is found in the array 
+
+-array.reverse()
+	this methods reverse the array also the origanl array is now updated with reverse array
+
+-array.slice()
+	this methods slices the array that means cuts the array and display the remaining part
+
+-array.splice()
+	this methods is used to replace,delete,in-place in array
+
+-array.sort()
+	this methods is used for sorting the array in either ascending or descending order
+
+
