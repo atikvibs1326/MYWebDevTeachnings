@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="day4.html">
+        <h1>Math concepts</h1>
+        <label for="concepts"> <b> Round vs Floor vs Ceil</b></label>
+        <p aria-readonly="true">
+            round()
+            round rounds up to the nearest Integer which can be above or below or even equal to the actual value.
+            In the case of a positive number, anything which is equal to or below x.49 will be converted to a lower
+            number ie x.00 whereas anything which is equal to or more than x.5 will be converted to a higher number ie
+            x+1.00
+            In the case of a negative number, anything which is equal to or below -x.5 will be converted to a lower
+            number ie -x-1.00 whereas anything which is equal to or more than -x.49 will be converted to a higher number
+            ie -x.00
+            <br>
+            <br>
+            floor()
+            floor rounds up to the nearest Integer which can be equal to or below the actual value.
+            In the case of a positive number, anything between x.01 to x.99 will be converted to a lower number ie x.00
+            whereas x.00 will remain the same x.00
+            In the case of a negative number, anything between -x.01 to -x.99 will be converted to a lower number ie
+            -x-1.00 whereas -x.00 will remain the same -x.00
+            <br><br>
+            ceil()
+            ceil rounds up to the nearest Integer which can be equal to or above the actual value.
+            In the case of a positive number, anything between x.01 to x.99 will be converted to an upper number ie
+            x+1.00 whereas x.00 will remain the same x.00
+            In the case of a negative number, anything between -x.01 to -x.99 will be converted to an upper number ie
+            -x.00 whereas -x.00 will remain the same -x.00
+        </p>
+        <label for="text">Feedback</label>
+        <br><br><br>
+        <textarea name="area" id="area" cols="50" rows="10" required></textarea>
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>

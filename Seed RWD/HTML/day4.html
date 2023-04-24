@@ -1,0 +1,33 @@
+<!-- Forms -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registration</h1>
+    <hr>
+    <form action="day4.html.html">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="name" minlength="5" maxlength="8" placeholder="username"
+            class="form-control" required>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="pass" minlength="5" maxlength="8" class="form-control" required>
+        <br>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="mail" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
