@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+     $(document).ready(function() {
+  // When the "Open Modal" button is clicked, slide down the modal
+  $('#open-modal').click(function() {
+    $('#modal').slideDown();
+  });
+  
+  // When the form is submitted, slide up the modal
+  $('form').click(function() {
+    $('#modal').slideUp();
+  });
+});
+
+    
+    </script>
+
+</head>
+<body>
+    <button id="open-modal">Open</button>
+    <div id="modal" style="display: none;">
+    <form action="" >
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"> <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"> <br><br>
+        <br>
+        <input type="button" value="Submit">
+    </form>
+ </div>
+</body>
+</html>

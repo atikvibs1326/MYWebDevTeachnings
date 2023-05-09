@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#form-control").hide();
+            $("#toggle-button").click(function(){
+                $("#form-control").toggle();
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="toggle-button">Toggle Form</button><br><br>
+    <div id="form-control">
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="mail"> <br><br>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
