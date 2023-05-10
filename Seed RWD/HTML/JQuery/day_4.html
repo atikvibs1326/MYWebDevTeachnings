@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide and Show Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide-btn").click(function(){
+                $("#content").hide();
+            });
+            $("#show-btn").click(function(){
+                $("#content").show();
+            });
+        });
+    </script>
+</head>
+
+<body style="background-color: aquamarine;">
+    <div id="content" style="color: blue;">
+        <p>This is some example content</p>
+    </div>
+    <button id="hide-btn" style="color: black; background-color: cadetblue; font-size: 20px; padding: 10px;" >Hide</button>
+    <button id="show-btn" style="color: black; background-color: cadetblue; font-size: 20px; padding: 10px;">Show</button>
+</body>
+
+</html>
